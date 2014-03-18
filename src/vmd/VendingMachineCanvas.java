@@ -60,14 +60,14 @@ public class VendingMachineCanvas extends JComponent{
 		this.machine = machine;
 		this.customer = customer;
 
-		image = ImageIO.read(new File("vmd/images/vm.jpg"));
-		image2 = ImageIO.read(new File("vmd/images/person.png"));
-		paperMoneyImage = ImageIO.read(new File("vmd/images/papermoney.png"));
-		coinsImage = ImageIO.read(new File("vmd/images/coins.jpg"));
-		gtaFont = Font.createFont(Font.TRUETYPE_FONT, new File("vmd/fonts/pricedown.ttf"));
+		image = ImageIO.read(new File("vmd/vm.jpg"));
+		image2 = ImageIO.read(new File("vmd/person.png"));
+		paperMoneyImage = ImageIO.read(new File("vmd/papermoney.png"));
+		coinsImage = ImageIO.read(new File("vmd/coins.jpg"));
+		gtaFont = Font.createFont(Font.TRUETYPE_FONT, new File("vmd/pricedown.ttf"));
 		gtaFont = gtaFont.deriveFont(gtaFontHeight);
 		colorGtaGreen = new Color(0x008000);
-		lcdFont = Font.createFont(Font.TRUETYPE_FONT, new File("vmd/fonts/DS-DIGI.TTF"));
+		lcdFont = Font.createFont(Font.TRUETYPE_FONT, new File("vmd/DS-DIGI.TTF"));
 		lcdFont = lcdFont.deriveFont(lcdFontHeight);
 		colorLCDBlue = new Color(0x34DDDD);
 		colorWhite = new Color(0xffffff);
