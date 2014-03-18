@@ -14,6 +14,7 @@ The Keypad works and you must use it to select a drink.
 The refund button works so use it to cancel your order.
 
 Functionality of Vending Machine:
+
 	1. The Machine can take in dollars and coins from a customer. The machine will not take in bills larger than $20.
 	The machine will not take more than $20 per transaction (if you give it a $20 and then another dollar, the 
 	machine refuses the other dollar).
