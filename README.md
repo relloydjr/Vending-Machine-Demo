@@ -8,12 +8,11 @@ To run:
 Upon running, the Vending Machine will randomly set the number of drinks for each item.
 The Vending Machine will also set a random number of quarters, nickels, dimes, pennies, and dollars it already has.
 
-If the machine is unable to make change for all possible amounts under $20 (incremented by 5 cents, i.e. $0.05, $0.10, ... $19.90, $19.95)
-the machine will be 'Out of Service' and you will have to re-run the program.
+If the machine is unable to make change for all possible amounts under $20 (incremented by 5 cents, i.e. $0.05, $0.10, ... $19.90, $19.95) the machine will be 'Out of Service' and you will have to re-run the program.
 
 Drag and drop bills and coins to the appropriate slot on the machine.
 
-The Keypad works and you must use it to select a drink.
+The keypad works and you must use it to select a drink.
 
 The refund button works so use it to cancel your order.
 
