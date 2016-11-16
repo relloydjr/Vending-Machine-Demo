@@ -3,7 +3,8 @@ Vending Machine Demo:
 
 To run:
 -----------------
-    java -jar vmd.jar
+    cd vmd
+    java -jar ../vmd.jar
 
 Upon running, the Vending Machine will randomly set the number of drinks for each item.
 The Vending Machine will also set a random number of quarters, nickels, dimes, pennies, and dollars it already has.
