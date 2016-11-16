@@ -3,7 +3,7 @@ Vending Machine Demo:
 
 To run:
 -----------------
-    cd vmd
+    cd src
     java -jar ../vmd.jar
 
 Upon running, the Vending Machine will randomly set the number of drinks for each item.
